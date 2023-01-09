@@ -1,0 +1,73 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.text {
+  text-decoration: none;
+  color: grey;
+  padding-left: 120px;
+  padding-top: 10px;
+}
+.text:hover {
+  color: orange;
+}
+
+.image {
+  padding-left: 20px;
+  padding-top: 15px;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.text-one {
+  text-decoration: none;
+  padding-left: 160px;
+  padding-top: 20px;
+  color: grey;
+}
+.text-one:hover {
+  color: orange;
+}
+
+p input {
+  width: 300px;
+  height: 30px;
+  padding-left: 20px;
+  margin-left: 25px;
+}
+
+label {
+  padding-left: 25px;
+}
+
+.button {
+  margin-top: 15px;
+  margin-left: 25px;
+  width: 325px;
+  height: 30px;
+  border: none;
+  background: rgb(10, 197, 63);
+  color: white;
+  border-radius: 5px;
+}
+.button:hover {
+  background: skyblue;
+}
+.button:active {
+  background: pink;
+}
+
+.text-two {
+  display: flex;
+  gap: 2px;
+  font-size: 12px;
+  padding-left: 15px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+.text-two:hover {
+  color: orchid;
+}
